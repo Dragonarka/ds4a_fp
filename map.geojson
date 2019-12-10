@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Costa Atlantica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76220703125,
+          10.509416700845861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Antioquia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.52001953125,
+          6.817352822622144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Oriente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.53173828125,
+          6.249776453227831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9052734375,
+          3.3160183381615123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "CQR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.728759765625,
+          5.0690578267840465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "THC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.234375,
+          1.5928123762763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6568603515625,
+          1.653212936926045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "Valle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.44287109375,
+          3.650481836146766
+        ]
+      }
+    }
+  ]
+}
