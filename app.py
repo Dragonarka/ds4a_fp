@@ -63,13 +63,13 @@ app.layout = html.Div([
         ]),
         dcc.Tab(label='Authors', children=[
             html.Img(
+                    src='/assets/p3.jpeg'
+                ),
+                html.Img(
                     src='/assets/p1.jpeg'
                 ),
                 html.Img(
                     src='/assets/p2.jpeg'
-                ),
-                html.Img(
-                    src='/assets/p3.jpeg'
                 )
         ]),
     ])
