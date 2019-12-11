@@ -50,7 +50,7 @@ app.layout = html.Div([
 
 
         ]),
-        dcc.Tab(label='Model', children=[
+        dcc.Tab(label='Statistics', children=[
                 html.Img(
                     src='/assets/t2.jpeg'
                 ),
@@ -61,17 +61,16 @@ app.layout = html.Div([
                     src='/assets/t4.jpeg'
                 )
         ]),
-        dcc.Tab(label='Statistics', children=[
-            dcc.Graph(
-                figure={
-                    'data': [
-                        {'x': [1, 2, 3], 'y': [2, 4, 3],
-                            'type': 'bar', 'name': 'SF'},
-                        {'x': [1, 2, 3], 'y': [5, 4, 3],
-                         'type': 'bar', 'name': u'Montréal'},
-                    ]
-                }
-            )
+        dcc.Tab(label='Authors', children=[
+            html.Img(
+                    src='/assets/p1.jpeg'
+                ),
+                html.Img(
+                    src='/assets/p2.jpeg'
+                ),
+                html.Img(
+                    src='/assets/p3.jpeg'
+                )
         ]),
     ])
 ])
