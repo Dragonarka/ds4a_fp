@@ -12,11 +12,11 @@ app.layout = html.Div([
                 html.Div(
                     [
                         html.H2(
-                            'Medellin, Colombia - Team 8 ',
+                            '     Medellin, Colombia - Team 8 ',
 
                         ),
                         html.H4(
-                            'System for blackout prediction of the Colombian power system',
+                            '                 System for blackout prediction of the Colombian power system',
                         )
                     ],
                     className='eight columns'
@@ -46,7 +46,7 @@ app.layout = html.Div([
             html.Div(                 
     children=[html.Iframe(className="full-page extra-padding",
     style={'width': '100%', 'height': '70vh'},
-     src=app.get_asset_url("kepler_test.html"))])
+     src=app.get_asset_url("kepler_final.html"))])
 
 
         ]),
@@ -76,6 +76,8 @@ app.layout = html.Div([
         ]),
     ])
 ])
+
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)

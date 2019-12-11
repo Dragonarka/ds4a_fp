@@ -217,6 +217,12 @@
             store.dispatch(keplerGl.addDataToMap(loadedData));
           }(KeplerGl, store))
         </script>
+        <script>
+          window.addEventListener('load',function(){         
+          const elem = document.getElementsByClassName("playback-control-button");
+          elem[1].click()
+        })
+          </script>
       </body>
     </html>
   
